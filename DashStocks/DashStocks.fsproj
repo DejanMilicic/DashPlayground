@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="dash-stock-ticker-less-loc.fs" />
     <Compile Include="dash-stock-ticker.fs" />
     <Compile Include="giraffe.fs" />
   </ItemGroup>
