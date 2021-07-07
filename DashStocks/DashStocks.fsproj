@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <WarnOn>3390;$(WarnOn)</WarnOn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="dash-stock-ticker.fs" />
+    <Compile Include="giraffe.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dash.NET" Version="0.1.0-alpha9" />
+    <PackageReference Include="Deedle" Version="2.4.0" />
+  </ItemGroup>
+
+</Project>
